@@ -1,0 +1,11 @@
+#about-me {
+    @include links($clr);
+    padding: 5rem 0;
+    text-align: center;
+    background: linear-gradient(to bottom, $bgclr 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    p {
+        margin-bottom: 5rem;
+    }
+}
